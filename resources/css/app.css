@@ -1,0 +1,30 @@
+@import "./prism.css";
+/* @import "./modal.css"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none !important;
+}
+
+.theme-style {
+    @apply text-base bg-white text-gray-950 dark:bg-gray-950 dark:text-white;
+}
+
+.text__theme--light {
+    @apply text-gray-950 dark:text-white;
+}
+
+.text__theme--dark {
+    @apply text-white dark:text-gray-950;
+}
+
+.bg__theme--light {
+    @apply bg-white dark:bg-gray-950;
+}
+
+.bg__theme--dark{
+    @apply bg-gray-950 dark:bg-white;
+}
